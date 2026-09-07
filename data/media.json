@@ -1,0 +1,601 @@
+[
+  {
+    "file": "assets/images/work-006.webp",
+    "source": "/9 мая на площади Нефтяников/IMG_20220511_152728.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 383298
+  },
+  {
+    "file": "assets/images/work-007.webp",
+    "source": "/9 мая на площади Нефтяников/IMG_20220511_152814.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 267072
+  },
+  {
+    "file": "assets/images/work-008.webp",
+    "source": "/Green Land Вывеска/IMG_20221103_204604.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 106468
+  },
+  {
+    "file": "assets/images/work-009.webp",
+    "source": "/Green Land Вывеска/IMG_20221104_094813.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 126210
+  },
+  {
+    "file": "assets/images/work-010.webp",
+    "source": "/Администрация НВ 2026/3177cb5c-d2e8-4820-9828-65a135217a4b.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 102188
+  },
+  {
+    "file": "assets/images/work-011.webp",
+    "source": "/Администрация НВ 2026/bb3f9f4a-e69c-4a57-af04-463739c75459.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 122022
+  },
+  {
+    "file": "assets/images/work-012.webp",
+    "source": "/Мир Масел/WhatsApp Image 2020-07-21 at 20.48.51.jpeg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1152,
+    "height": 864,
+    "bytes": 135862
+  },
+  {
+    "file": "assets/images/work-013.webp",
+    "source": "/Мир Масел/WhatsApp Image 2020-07-21 at 20.49.30.jpeg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1152,
+    "height": 568,
+    "bytes": 112682
+  },
+  {
+    "file": "assets/images/work-028.webp",
+    "source": "/Оформления и фотозоны/IMG_20221226_055736.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 389402
+  },
+  {
+    "file": "assets/images/work-037.webp",
+    "source": "/Оформления и фотозоны/IMG_20231218_021146.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 249970
+  },
+  {
+    "file": "assets/images/work-042.webp",
+    "source": "/Оформления и фотозоны/IMG_20240517_121307.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 834892
+  },
+  {
+    "file": "assets/images/work-047.webp",
+    "source": "/Оформления и фотозоны/IMG_20240517_121538.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 143026
+  },
+  {
+    "file": "assets/images/work-053.webp",
+    "source": "/Оформления и фотозоны/IMG_20240613_233549.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 331130
+  },
+  {
+    "file": "assets/images/work-055.webp",
+    "source": "/Оформления и фотозоны/IMG_20241216_040133.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 431588
+  },
+  {
+    "file": "assets/images/work-062.webp",
+    "source": "/Оформления и фотозоны/IMG_20241221_141130.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 419590
+  },
+  {
+    "file": "assets/images/work-065.webp",
+    "source": "/Оформления и фотозоны/IMG_20250107_180035.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 539438
+  },
+  {
+    "file": "assets/images/work-070.webp",
+    "source": "/Оформления и фотозоны/IMG_20250107_180324.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 288790
+  },
+  {
+    "file": "assets/images/work-075.webp",
+    "source": "/Оформления и фотозоны/IMG_20250107_180716.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 521732
+  },
+  {
+    "file": "assets/images/work-082.webp",
+    "source": "/ОхотАктив вывески/IMG_20221103_094518.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 209736
+  },
+  {
+    "file": "assets/images/work-083.webp",
+    "source": "/ОхотАктив вывески/IMG_20221103_094550.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 133524
+  },
+  {
+    "file": "assets/images/work-084.webp",
+    "source": "/ОхотАктив вывески/IMG_20221103_201752.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 145212
+  },
+  {
+    "file": "assets/images/work-085.webp",
+    "source": "/ОхотАктив вывески/IMG_20221103_202020.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 327986
+  },
+  {
+    "file": "assets/images/work-086.webp",
+    "source": "/Прак победы Арка/IMG_20220505_233119.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 50726
+  },
+  {
+    "file": "assets/images/work-087.webp",
+    "source": "/Прак победы Арка/IMG_20220505_233209__01.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1388,
+    "bytes": 81804
+  },
+  {
+    "file": "assets/images/work-088.webp",
+    "source": "/Птицефабрика Иртышская 2026/becddfbe-84a8-4956-b013-4d6cfae7cc2f.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 148086
+  },
+  {
+    "file": "assets/images/work-089.webp",
+    "source": "/Птицефабрика Иртышская 2026/dfdef1ae-c298-40d5-a6c7-b3a2472f8971.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 249488
+  },
+  {
+    "file": "assets/images/work-092.webp",
+    "source": "/Роснефть 23 февраля и 8 марта 2026/IMG_20260305_231056.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 485592
+  },
+  {
+    "file": "assets/images/work-096.webp",
+    "source": "/Роснефть 23 февраля и 8 марта 2026/c5282b79-5567-4dfc-9726-9900a9fd6858_result.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1280,
+    "height": 960,
+    "bytes": 127984
+  },
+  {
+    "file": "assets/images/work-097.webp",
+    "source": "/Роснефть 9 мая 2026/0daa8b12-dd19-46be-8897-b494d4343909.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1024,
+    "height": 768,
+    "bytes": 101554
+  },
+  {
+    "file": "assets/images/work-103.webp",
+    "source": "/Роснефть 9 мая 2026/2b7c217f-cb15-4ada-ad8d-a6aa6bb10e66.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1280,
+    "height": 960,
+    "bytes": 166276
+  },
+  {
+    "file": "assets/images/work-109.webp",
+    "source": "/Роснефть 9 мая 2026/6ec0813d-f6d1-47d3-aaeb-a5b11ae7658d.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 327002
+  },
+  {
+    "file": "assets/images/work-119.webp",
+    "source": "/Роснефть День Нефтяника 2026/IMG_20260823_151654.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 349918
+  },
+  {
+    "file": "assets/images/work-123.webp",
+    "source": "/Роснефть День Нефтяника 2026/IMG_20260823_151857.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 302364
+  },
+  {
+    "file": "assets/images/work-127.webp",
+    "source": "/Роснефть День Нефтяника 2026/a8e84223-fb6c-465c-99e9-f8589e631723.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 787,
+    "height": 1400,
+    "bytes": 92662
+  },
+  {
+    "file": "assets/images/work-128.webp",
+    "source": "/Роснефть День Нефтяника 2026/c1bf2648-b508-4959-b5fd-d7d30c31cf94.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 716,
+    "height": 1400,
+    "bytes": 76292
+  },
+  {
+    "file": "assets/images/work-130.webp",
+    "source": "/Роснефть День Нефтяника 2026/fc1e85cd-0b14-4f92-9a73-cfcc320c2c34.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 790,
+    "height": 1400,
+    "bytes": 122494
+  },
+  {
+    "file": "assets/images/work-132.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/26da759a-1c20-45c9-8293-3c2a8f388ec9.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1040,
+    "height": 500,
+    "bytes": 42688
+  },
+  {
+    "file": "assets/images/work-133.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/3bd49523-543e-45f4-9b1a-aae4140ac784.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 332774
+  },
+  {
+    "file": "assets/images/work-136.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/4627a52d-1d0b-4483-9117-85b338c1c933.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1013,
+    "bytes": 229892
+  },
+  {
+    "file": "assets/images/work-139.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/53ab9b1b-c9eb-4b87-97fc-eb7d7f7de5dd.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 480218
+  },
+  {
+    "file": "assets/images/work-146.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/91d87a16-c248-425f-8247-0ed311a1a5b0.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1040,
+    "height": 500,
+    "bytes": 43322
+  },
+  {
+    "file": "assets/images/work-148.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC03411.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 439166
+  },
+  {
+    "file": "assets/images/work-157.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC06489.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 126204
+  },
+  {
+    "file": "assets/images/work-160.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC07968.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 250678
+  },
+  {
+    "file": "assets/images/work-169.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC08126.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 39148
+  },
+  {
+    "file": "assets/images/work-173.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC08208.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 293162
+  },
+  {
+    "file": "assets/images/work-180.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC08378.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 573106
+  },
+  {
+    "file": "assets/images/work-187.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC08441.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 176660
+  },
+  {
+    "file": "assets/images/work-195.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC08958.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 351646
+  },
+  {
+    "file": "assets/images/work-202.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/DSC09227.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1200,
+    "bytes": 144918
+  },
+  {
+    "file": "assets/images/work-203.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/IMG_20260612_015423.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 224040
+  },
+  {
+    "file": "assets/images/work-206.webp",
+    "source": "/САМОТЛОРСКИЕ НОЧИ 2026/IMG_20260613_050554.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 356712
+  },
+  {
+    "file": "assets/images/work-208.webp",
+    "source": "/СШОР Самотлор Спортивные Аробъекты/IMG_20191216_025600.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 206574
+  },
+  {
+    "file": "assets/images/work-209.webp",
+    "source": "/СШОР Самотлор Спортивные Аробъекты/IMG_20220616_142500.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 322656
+  },
+  {
+    "file": "assets/images/work-212.webp",
+    "source": "/Стела заправка 2026/4b585f91-7c34-4d77-b587-fe9464253ec6.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 209372
+  },
+  {
+    "file": "assets/images/work-214.webp",
+    "source": "/Стела заправка 2026/6f922d8d-b72f-4a30-8be7-3508e25bd8c2.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 293460
+  },
+  {
+    "file": "assets/images/work-217.webp",
+    "source": "/Управление ДХБ 9 мая и день России 2026/0d5cc0a9-78d0-4d00-aeba-64c1f389d532.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 960,
+    "height": 1280,
+    "bytes": 175106
+  },
+  {
+    "file": "assets/images/work-219.webp",
+    "source": "/Управление ДХБ 9 мая и день России 2026/359e53d4-8a43-4877-afbb-94efef756687.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 671780
+  },
+  {
+    "file": "assets/images/work-226.webp",
+    "source": "/Управление ДХБ 9 мая и день России 2026/IMG_20260423_124031.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1050,
+    "height": 1400,
+    "bytes": 208782
+  },
+  {
+    "file": "assets/images/work-234.webp",
+    "source": "/Управление ДХБ Баннеры на компенсаторы 2026/1e3a7c95-59e6-4de9-a53b-82afd66030e5.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 160898
+  },
+  {
+    "file": "assets/images/work-238.webp",
+    "source": "/Управление ДХБ Баннеры на компенсаторы 2026/711150af-c0c8-4336-9d64-9d66338c91a4.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1600,
+    "height": 1200,
+    "bytes": 195366
+  },
+  {
+    "file": "assets/images/work-241.webp",
+    "source": "/Фото здания/IMG_20220402_115543.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 361940
+  },
+  {
+    "file": "assets/images/work-242.webp",
+    "source": "/Фото здания/IMG_20220402_115549.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 326260
+  },
+  {
+    "file": "assets/images/work-243.webp",
+    "source": "/Фото здания/IMG_20220402_115559.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 341866
+  },
+  {
+    "file": "assets/images/work-244.webp",
+    "source": "/Фото здания/IMG_20220402_115612.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 383804
+  },
+  {
+    "file": "assets/images/work-246.webp",
+    "source": "/Центральная городская библиотека - Литературный Сквер/838f4e6a275490c5c866347eb77fb67d.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1200,
+    "height": 797,
+    "bytes": 196612
+  },
+  {
+    "file": "assets/images/work-247.webp",
+    "source": "/Центральная городская библиотека - Литературный Сквер/af3100b8dc3910e1783bc7ed072ebf97_tinymce.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1080,
+    "height": 1079,
+    "bytes": 163120
+  },
+  {
+    "file": "assets/images/work-248.webp",
+    "source": "/Центральная городская библиотека - Литературный Сквер/dyrwcjklgt4_large.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 680,
+    "height": 454,
+    "bytes": 92938
+  },
+  {
+    "file": "assets/images/work-249.webp",
+    "source": "/Центральная городская библиотека - Литературный Сквер/sc3zpg86s9z8h2mlkaa8yd03z0h7jm1k.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1280,
+    "height": 958,
+    "bytes": 330354
+  },
+  {
+    "file": "assets/images/work-250.webp",
+    "source": "/Центральная городская библиотека - Литературный Сквер/ti27djuyu9uw6i398zyd0mvjdrjp3ocq.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1280,
+    "height": 958,
+    "bytes": 368278
+  },
+  {
+    "file": "assets/images/work-251.webp",
+    "source": "/Центральная городская библиотека - Литературный Сквер/zqsuymh0um88efcv5lrt07jgxb9d799c.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1280,
+    "height": 958,
+    "bytes": 346898
+  },
+  {
+    "file": "assets/images/work-252.webp",
+    "source": "/Ядро молодежный центр вывеска/IMG_20220206_222034.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 116852
+  },
+  {
+    "file": "assets/images/work-253.webp",
+    "source": "/Ядро молодежный центр вывеска/IMG_20220206_222127.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 144520
+  },
+  {
+    "file": "assets/images/work-255.webp",
+    "source": "/Ядро молодежный центр вывеска/IMG_20220207_094116.jpg",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 1800,
+    "height": 1350,
+    "bytes": 413984
+  },
+  {
+    "file": "assets/images/logo.png",
+    "source": "/UV_NewLogo_3.png",
+    "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
+    "width": 900,
+    "height": 228
+  }
+]
