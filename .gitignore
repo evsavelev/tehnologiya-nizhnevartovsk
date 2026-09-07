@@ -4,3 +4,4 @@ source-media/
 qa/
 __pycache__/
 *.log
+dist/
