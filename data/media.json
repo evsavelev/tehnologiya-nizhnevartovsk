@@ -745,5 +745,23 @@
     "sourceDisk": "https://disk.yandex.ru/d/BbMGtYuzDdbgSA",
     "width": 900,
     "height": 228
+  },
+  {
+    "file": "assets/images/vk-497.jpg",
+    "source": "https://vk.ru/wall-179232832_497",
+    "sourceType": "official VK post image",
+    "width": 640,
+    "height": 427,
+    "bytes": 83651,
+    "verified": "2026-09-07"
+  },
+  {
+    "file": "assets/images/vk-491.jpg",
+    "source": "https://vk.ru/wall-179232832_491",
+    "sourceType": "official VK video preview",
+    "width": 360,
+    "height": 640,
+    "bytes": 60307,
+    "verified": "2026-09-07"
   }
 ]
