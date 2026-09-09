@@ -763,5 +763,14 @@
     "height": 640,
     "bytes": 60307,
     "verified": "2026-09-07"
+  },
+  {
+    "file": "assets/images/vk-497-comparison.jpg",
+    "source": "https://vk.ru/wall-179232832_497",
+    "sourceType": "official VK collage, larger original, no retouching; CSS crops for comparison",
+    "width": 1535,
+    "height": 1024,
+    "bytes": 468730,
+    "verified": "2026-09-10"
   }
 ]
