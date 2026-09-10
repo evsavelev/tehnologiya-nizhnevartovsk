@@ -12,6 +12,11 @@ dialog?.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBou
 dialog?.addEventListener('close',()=>opener?.focus());
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));let count=0;document.querySelectorAll('[data-tag]').forEach(card=>{card.hidden=button.dataset.filter!=='Все'&&card.dataset.tag!==button.dataset.filter;if(!card.hidden)count++});document.querySelector('.filter-count').textContent=`Показано проектов: ${count}`;document.querySelector('.empty-state').hidden=count>0}));
 const form=document.querySelector('#request-form');
+// Install keyboard clearance before awaiting the optional form configuration.
+const updateInputState = () => document.body.classList.toggle('editing-field', /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName));
+document.addEventListener('focusin', updateInputState);
+document.addEventListener('focusout', () => setTimeout(updateInputState, 0));
+updateInputState();
 if (form) {
   const { formConfig } = await import('./form-config.js');
   const query = new URLSearchParams(location.search);
@@ -24,6 +29,8 @@ if (form) {
     if (source.origin === 'https://evsavelev.github.io' && source.pathname.startsWith('/tehnologiya-nizhnevartovsk/')) sourceUrl = source.origin + source.pathname;
   } catch { /* Direct visits use the current page. */ }
   const submit = form.querySelector('[type=submit]');
+  submit.disabled = false;
+  form.dataset.ready = 'true';
   const status = document.querySelector('#form-status');
   const fallback = document.querySelector('#form-fallback');
   const preview = document.querySelector('#request-preview');
@@ -86,9 +93,6 @@ if (form) {
 }
 
 // The bar stays still while scrolling, and makes room for the virtual keyboard.
-const updateInputState = () => document.body.classList.toggle('editing-field', /^(INPUT|TEXTAREA|SELECT)$/.test(document.activeElement?.tagName));
-document.addEventListener('focusin', updateInputState);
-document.addEventListener('focusout', () => setTimeout(updateInputState, 0));
 
 const comparison = document.querySelector('.comparison-interactive');
 if (comparison) {

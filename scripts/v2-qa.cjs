@@ -13,6 +13,8 @@ const base=process.env.QA_URL||'http://127.0.0.1:4173/tehnologiya-nizhnevartovsk
   await page.setViewportSize({width,height:844});await page.goto(base);
   assert.equal(await page.locator('.mobile-contact-bar').isVisible(),width<=760);
   if(width<=760){
+   assert.equal(await page.locator('.mobile-contact-bar a').nth(0).getAttribute('href'),'tel:+73466636329');
+   assert((await page.locator('.mobile-contact-bar a').nth(1).getAttribute('href')).startsWith('https://max.ru/u/'));
    for(const a of await page.locator('.mobile-contact-bar a').all()){const r=await a.boundingBox();assert(r.height>=44&&r.width>=44)}
    await page.locator('.mobile-estimate').click();assert(page.url().includes('/contacts/'));assert(page.url().endsWith('#request'));
    await page.locator('[name=name]').focus();assert.equal(await page.locator('.mobile-contact-bar').isVisible(),false);
@@ -22,6 +24,24 @@ const base=process.env.QA_URL||'http://127.0.0.1:4173/tehnologiya-nizhnevartovsk
   }
  }
  checks.push('Mobile bar: 360/390/430, targets ≥44px, anchor, input hiding, footer clearance; hidden 768/1440');
+ await page.setViewportSize({width:390,height:844});await page.goto(base);
+ await page.locator('.menu-toggle').click();assert.equal(await page.locator('.mobile-contact-bar').isVisible(),false);await page.keyboard.press('Escape');
+ await page.goto(base+'portfolio/');await page.locator('[data-gallery]').first().click();assert.equal(await page.locator('.mobile-contact-bar').isVisible(),false);await page.keyboard.press('Escape');assert(await page.locator('.mobile-contact-bar').isVisible());
+ const css=await (await page.request.get(base+'assets/styles.css')).text();assert(css.includes('env(safe-area-inset-bottom,0px)'));
+ await page.addStyleTag({content:css.replace(/env\(safe-area-inset-(?:bottom|left|right),0px\)/g,'20px')});
+ await page.evaluate(()=>{document.documentElement.style.scrollBehavior='auto';scrollTo(0,document.body.scrollHeight)});
+ const safeBar=await page.locator('.mobile-contact-bar').boundingBox(),safeFooter=await page.locator('.footer-bottom').boundingBox();assert(safeBar.height>=84);assert(safeFooter.y+safeFooter.height<=safeBar.y);
+ checks.push('Confirmed phone/MAX hrefs; bar hidden for menu/lightbox; simulated 20px safe-area keeps footer clear');
+ // Regression: slow config must not leave the mobile bar over a focused input,
+ // or allow the browser's native form submission before JS handlers are ready.
+ await page.setViewportSize({width:390,height:844});
+ await page.route('**/assets/form-config.js',async route=>{await new Promise(ok=>setTimeout(ok,1200));await route.continue()});
+ await page.goto(base+'contacts/');await page.locator('[name=name]').focus();
+ await page.waitForFunction(()=>document.body.classList.contains('editing-field'));
+ assert.equal(await page.locator('.mobile-contact-bar').isVisible(),false);
+ if(!await page.locator('form').getAttribute('data-ready'))assert(await page.locator('[type=submit]').isDisabled());
+ await page.waitForFunction(()=>document.querySelector('form').dataset.ready==='true');
+ await page.unroute('**/assets/form-config.js');checks.push('Slow config regression: keyboard clearance before config, submit disabled until handlers are ready');
  await page.setViewportSize({width:390,height:844});
  await page.goto(base+'contacts/?service=Test#request');
  await page.locator('[name=name]').fill('  ');await page.locator('[name=contact]').fill('test@example.test');await page.locator('[type=submit]').click();assert.equal(await page.locator('#form-status').textContent(),'');
