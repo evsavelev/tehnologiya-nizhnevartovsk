@@ -98,7 +98,7 @@ const base=process.env.QA_URL||'http://127.0.0.1:4173/tehnologiya-nizhnevartovsk
  await page.goto(base);await page.keyboard.press('Tab');assert(await page.locator('.skip-link').evaluate(e=>e===document.activeElement));await page.keyboard.press('Enter');
  checks.push('Touch comparison, one-shot reveal, runtime reduced-motion, gallery keyboard/focus, skip link');
  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:844}});const np=await nojs.newPage();await np.goto(base+'catalog/printing/');assert(await np.locator('.comparison-static').isVisible());assert.equal(await np.locator('.reveal-pending').count(),0);assert(await np.locator('.mobile-contact-bar').isVisible());await nojs.close();
- await page.emulateMedia({reducedMotion:'no-preference'});for(const width of [360,390,430,768,1440]){await page.setViewportSize({width,height:844});await page.goto(base);await page.screenshot({path:`qa/v2-${width}-hero.png`});}
+ await page.emulateMedia({reducedMotion:'no-preference'});for(const width of [360,390,430,768,1440]){await page.setViewportSize({width,height:844});await page.goto(base);await page.locator('.hero-photo img').evaluate(async img=>await img.decode());await page.screenshot({path:`qa/v2-${width}-hero.png`});}
  assert.deepEqual(errors,[]);checks.push('No-JS content/comparison/contacts, no page errors');
  fs.writeFileSync('qa/v2-report.json',JSON.stringify({date:new Date().toISOString(),base,checks},null,2));console.log(checks.join('\n'));await browser.close();
 })().catch(e=>{console.error(e);process.exit(1)});
